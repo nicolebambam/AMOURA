@@ -9,6 +9,11 @@
 		
 }
 
+div.zoomed { 
+    zoom: 3; 
+    -moz-transform: scale(3); 
+    -moz-transform-origin: 0 0;
+}
 
 body { 
 font-family: 'Barlow Semi Condensed', sans-serif;
@@ -45,7 +50,7 @@ nav ul li{
 
 a{ text-decoration: none; 
 	color: #EEEEEE;
-    font-size: 24px
+    font-size: 22px
 	
 }
 p{ color: #EEEEEE; 
@@ -54,7 +59,7 @@ padding-left: 25%;
 padding-right: 25%;
 padding-bottom: 50px;
 
-font-size: 24px;
+font-size: 22px;
     
 }
 
@@ -111,7 +116,7 @@ padding: 1px 20px 15px 20px;
     margin-bottom: 50px;
 	border-radius: 30px; 
 	font-family: 'Barlow Semi Condensed', sans-serif;
-	font-size: 21px;
+	font-size: 19px;
 	border-width: thin; 
 	transition: background 0.7s;
 }
@@ -124,7 +129,7 @@ padding: 1px 20px 15px 20px;
 	padding: 8px 20px;
     border-radius: 30px; 
 	font-family: 'Barlow Semi Condensed', sans-serif;
-	font-size: 21px;
+	font-size: 19px;
 	border-width: thin; 
 	transition: background 0.7s;
 }
@@ -140,7 +145,7 @@ padding: 1px 20px 15px 20px;
     margin-bottom: 50px;
 	border-radius: 30px; 
 	font-family: 'Barlow Semi Condensed', sans-serif;
-	font-size: 21px;
+	font-size: 19px;
 	border-width: thin; 
 	transition: background 0.7s;
 }
@@ -215,13 +220,13 @@ padding: 1px 20px 15px 20px;
 	position: relative;
 	line-height:40px;
 	color: #ffffff;
-	font-size: 30px;
+	font-size: 28px;
 	font-family: 'MuseoModerno', sans-serif;
 }
 
 
 h4{
-	font-size: 18px;
+	font-size: 16px;
 	color: #ffffff;
 	font-weight: normal;
 }
@@ -232,7 +237,7 @@ h4{
 
 p1{ 
 	color: #ffffff;
-	font-size: 14px;
+	font-size: 12px;
 	margin-left:0px;
 }
 
@@ -268,7 +273,7 @@ p1{
 
 .offer h2{
 	color: #ffffff; 
-	font-size: 45px; 
+	font-size: 43px; 
 	font-family: 'MuseoModerno', sans-serif;
 	padding-left: 30px;
 	margin-left: 20px;
@@ -291,7 +296,7 @@ em{
 
 h2{
 	color: #ffffff; 
-	font-size: 45px; 
+	font-size: 43px; 
 	font-family: 'MuseoModerno', sans-serif;
 	padding-bottom: 25px; 
 	padding-left: 20px;
@@ -303,7 +308,7 @@ h2{
 	margin-left: 25px;
     margin-bottom: 25px;
 	text-align:left; 
-	font-size: 24px; 
+	font-size: 22px; 
     
     
 }
@@ -312,7 +317,7 @@ p2{
 	color: #999999;
 	text-align: center;
 	padding: 5px;
-	font-size: 24px;
+	font-size: 22px;
 	margin: 12px 0px;
 }
 
@@ -354,13 +359,13 @@ h3{ font-family: 'MuseoModerno', sans-serif;
 .footer{
 	background: grey; 
 	color: #f2f2f2;
-	font-size: 12px, 
+	font-size: 8px, 
 	padding: 60px 0px 20px;
 }
 
 .footer p{ 
 	color:#f2f2f2; 
-	font-size: 12px;
+	font-size: 8px;
 	
 }
 .footer h4{
@@ -368,14 +373,14 @@ h3{ font-family: 'MuseoModerno', sans-serif;
 	color: #f2f2f2;
 	margin-bottom:20px;
 	margin-top: 30px;
-	font-size: 24px;
+	font-size: 19px;
 	font-family: 'MuseoModerno', sans-serif;
 }
 
 .footer h3{
 	color: #f2f2f2;
 	margin-bottom:20px;
-	font-size: 24px;
+	font-size: 19px;
 	margin-top: 10px;
 }
 
@@ -407,7 +412,7 @@ width: 150px;
 
 ul{
 	list-style-type: none;
-	font-size: 12px;
+	font-size: 10px;
 }
 
 .app-logo{
@@ -503,13 +508,13 @@ color:#999999;
 }
 .small-container h1{
 	color: #ffffff; 
-	font-size: 35px; 
+	font-size: 31px; 
 	font-family: 'MuseoModerno', serif;
 }
 
 h5{ 
 color:#eeeeee;
-font-size: 24px;
+font-size: 20px;
 	font-family: 'MuseoModerno', sans-serif;
 	padding-bottom: 30px;
 	padding-right: 0px; 
@@ -531,7 +536,7 @@ font-size: 24px;
 .single-product h4{
 	color:#eeeeee;
 	padding-bottom: 20px;
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: bold;
 
 }
@@ -547,7 +552,7 @@ font-size: 24px;
 	width:50px; 
 	height: 40px;
 	padding-left: 10px;
-	font-size: 24px;
+	font-size: 20px;
 	margin-right: 10px;
 	border: 1px solid #eeeeee;
 	font-family: 'Barlow Semi Condensed', sans-serif; 
@@ -565,7 +570,7 @@ input:focus{
 
 .col-2 h2{
 	color: #ffffff; 
-	font-size: 45px; 
+	font-size: 43px; 
 	font-family: 'MuseoModerno', sans-serif;
 	padding-bottom: 25px; 
 	padding-left: 0px;
@@ -630,7 +635,7 @@ td input{
 }
 td a{
 	color: #eeeeee;
-	font-size: 12px; 
+	font-size: 8px; 
 }
 
 td img{ 
@@ -728,7 +733,7 @@ form input{
 
 form a{
 	color:#eeeeee;
-	font-size: 8px;
+	font-size: 6px;
 }
 
 form .btn{
@@ -782,7 +787,7 @@ form .btn:focus{
 
 .about h2{
 	color: #ffffff; 
-	font-size: 45px; 
+	font-size: 43px; 
 	font-family: 'MuseoModerno', sans-serif;
 	padding-left: 20px;
 	margin-left: 0px;
@@ -805,7 +810,7 @@ form .btn:focus{
 
 h2{
 	color: #ffffff; 
-	font-size: 45px; 
+	font-size: 43px; 
 	font-family: 'MuseoModerno', sans-serif;
 	padding-bottom: 25px; 
 	padding-left: 20px;
@@ -816,7 +821,7 @@ h2{
 .small{
 	margin-left: 25px; 
 	text-align:left; 
-	font-size: 24px; 
+	font-size: 20px; 
 	color: #eeeeee;
 }
 
@@ -824,7 +829,7 @@ p2{
 	color: #999999;
 	text-align: center;
 	padding: 5px;
-	font-size: 24px;
+	font-size: 20px;
 	margin: 12px 0px;
 }
 
@@ -888,7 +893,7 @@ p2{
 		padding: 20px 0px;
 	}
 	.single-product h2{
-		font-size: 26px;
+		font-size: 24px;
 		line-height: 32px;
 	}
 	
