@@ -1,0 +1,453 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AMOURA S/S Collection</title>
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap">
+	  <!-- add icon link -->
+        <link rel = "icon" href = "images/Untitled-2-01.png"
+        type = "image/x-icon">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$("#myModal").modal('show');
+	});
+</script>
+    
+    
+    
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+.container2{
+    padding: 1px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 1px;    
+    }
+    
+.buttonn{
+    position: static;
+    left: 50%;
+    right: 30%;
+	background: #333333;
+	color:#eeeeee;
+	padding: 8px 20px;
+    
+    margin-left: 50px;
+    margin-bottom: 50px;
+	border-radius: 30px; 
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 21px;
+	border-width: thin; 
+	transition: background 0.7s;
+}
+    
+    .countryboxstyle {
+        background: #eeeeee;
+	    color:#eeeeee;
+        opacity: 80%;
+    }   
+    
+    .countryboxheader {
+        background: #eeeeee;
+	    color:#eeeeee;
+        opacity: 80%;
+    }
+    
+
+    
+    
+body 
+{font-family: Barlow, sans-serif;}
+* {box-sizing: border-box;}
+  
+    p {
+        padding: 50px;
+    } 
+    
+    p2{
+        padding:0px;
+    }
+    
+    p4 {
+        font-family: Barlow Condensed, sans-serif;
+
+        margin-left: 20px;
+        margin-top: auto;
+    }
+
+    
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  border-radius: 20px;
+  padding: 16px 10px;
+  border: none;
+  cursor: pointer;
+
+  position: fixed;
+  bottom: 60px;
+  right: 50px;
+  width: 150px;
+ font-family: Barlow Condensed, sans-serif;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+
+  z-index: 9;
+}
+
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+ opacity: 90%;
+  padding: 3px;
+  background-color: #f1f1f1;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+font-family: Barlow Condensed, sans-serif;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0px 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 150px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container {
+  background-color: #555555;
+
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  
+}
+
+/* Add a grey background color to the cancel button */
+.form-container .cancel {
+  background-color: #999999;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+
+}
+    
+/* search bar i swear this project is killing me tf */
+    
+body {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}    
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 70px;
+}
+    
+/*poppppupppp
+
+</style>    
+    
+    
+    
+</head>
+
+<body>
+    
+
+    </body>
+	
+    <button class="open-button" onclick="openForm()">Chat with Us</button>
+
+        <div class="chat-popup" id="myForm">
+  
+    <form action="/action_page.php" class="form-container">
+    <h5>Message</h5>
+
+    
+    
+      <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+      
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+        </div>
+
+<script>
+    function openForm() {
+        document.getElementById("myForm").style.display = "block";
+    }
+
+function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+    }
+    </script>
+    
+    
+	
+	<div class="navbar">
+	<div class="logo">
+		<a href="index.html"><img src="images/logo off white-03.png" width="125px"></a>
+		</div>
+		<nav> 
+		<ul id="MenuItems">
+			<li> <a href="index.html">Home</a></li>
+            <li> <a href="about.html">About</a></li>
+			<li> <a href="catalogue.html">Catalogue</a></li>
+			<li> <a href="Newsletter.html">Newsletter</a></li>
+			<li> <a href="account.html">Account</a></li>
+			</ul>
+			
+		</nav>
+		
+		<a href="cart.html"><img src="images/cart white.png" width= "30px" height= "30px"></a>
+		<img src="images/menu-01.png" alt="" class="menu-icon" onclick="menutoggle()"> 
+	</div>
+    
+
+        
+	<div class="row">
+		</div>
+		
+	
+	<div class="small-container">
+	<div class="row row-2">
+		<h2>Catalogue</h2>
+        
+		<select>
+		<option>REFINE</option>
+			<option>Sort By Price</option>
+			<option>Sort By Popularity</option>
+			<option>Sort By Rating</option>
+			<option>Sort By Sale</option>
+		</select>
+		</div>
+		
+	<div class="row">
+		
+        <div class="col-4">
+			<a>
+                
+            <img src="images/apparel1.jpg" alt=""></a>
+			<a href="product details.html"><h4> AMOURA</h4><h4>TRENCH COAT</h4></a>
+			
+			<p1>€1.280</p1>
+		</div>
+
+        <div class="col-4">
+			<img src="images/apparel2.jpg" alt="">
+			<h4> AMOURA</h4><h4>RED DRESS</h4>
+			
+			<p1>€1.280</p1>
+		</div>
+		
+        <div class="col-4">
+			<img src="images/apparel%203.jpg" alt="">
+			<h4> AMOURA </h4><h4>TROUSERS</h4>
+			
+			<p1>€1.280</p1>
+		</div>
+		
+        <div class="col-4">
+			<img src="images/apparel4.jpg" alt="">
+			<h4>AMOURA</h4><h4>RED TOP</h4>
+			
+			<p1>€580</p1>
+		</div>
+				<div class="col-4">
+			<img src="images/apparel5.5.jpg" alt="">
+			<h4>AMOURA</h4><h4>BLAZER SET</h4>
+			<p1>€1.280</p1>
+				</div>
+				
+			<div class="col-4">
+			<img src="images/apparel6.jpg" alt="">
+			<h4>AMOURA</h4><h4>GREEN JACKET</h4>
+			<p1>€1.280</p1>
+		</div>
+		
+        <div class="col-4">
+			<img src="images/apparel7.jpg" alt="">
+			<h4>AMOURA</h4><h4>PLAID JUMPSUIT</h4>
+			<p1>€1.280</p1>
+		</div>
+			
+        
+        <div class="col-4">
+			<img src="images/apparel8.jpg" alt="">
+			<h4>AMOURA</h4><h4>DRESS</h4>
+			<p1>€1.280</p1>
+		</div>
+        
+			<div class="col-4">
+			<img src="images/apparel9.jpg" alt="">
+			<h4>AMOURA</h4><h4>DRESS</h4>
+			<p1>€1.280</p1>
+		</div>
+			<div class="col-4">
+			<img src="images/apparel10.jpg" alt="">
+			<h4>AMOURA</h4><h4>JACKET</h4>
+			<p1>€1.280</p1>
+		</div>
+			<div class="col-4">
+			<img src="images/apparel11.jpg" alt="">
+			<h4>AMOURA</h4><h4>SHIRT</h4>
+			<p1>€1.280</p1>
+		</div>
+			<div class="col-4">
+			<img src="images/apparel12.jpeg" alt="">
+			<h4>AMOURA</h4><h4>BLOUSE</h4>
+            <p1>€1.280</p1>
+		</div>
+		</div>
+			<div class="page-btn">
+			<span>1</span>
+			<span>2</span>
+			<span>3</span>
+			<span>4</span>
+				<span>&#8594;</span>
+		</div>
+			</div>
+
+
+	
+
+<!-------js for toggle menu------>
+
+<script>
+	var MenuItems = document.getElementById("MenuItems");
+	
+	MenuItems.style.maxHeight = "0px";
+	
+	function menutoggle(){
+		if(MenuItems.style.maxHeight == "0px")
+			{
+				MenuItems.style.maxHeight = "200px";
+			}
+		else
+			{
+				MenuItems.style.maxHeight = "0px";
+			}
+	}
+	
+	</script>
+
+
+
+<!---foooter --->
+            
+  <footer class="footer">
+  	 <div class="container2">
+  	 	<div class="row">
+            
+  	 		<div class="footer-col">
+  	 			<h3>A M O U R A</h3>
+  	 			<ul>
+  	 				<li><a href="#">about us</a></li>
+  	 				<li><a href="#">our services</a></li>
+  	 				<li><a href="#">privacy policy</a></li>
+  	 				<li><a href="#">affiliate program</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h3>Get Help</h3>
+  	 			<ul>
+  	 				<li><a href="#">shipping</a></li>
+  	 				<li><a href="#">returns</a></li>
+  	 				<li><a href="#">order status</a></li>
+  	 				<li><a href="#">payment options</a></li>
+  	 			</ul>
+  	 		</div>
+            
+            
+  	 		<div class="footer-col">
+  	 			<h3>Online Shop</h3>
+  	 			<ul>
+  	 				<li><a href="#">watch</a></li>
+  	 				<li><a href="#">bag</a></li>
+  	 				<li><a href="#">shoes</a></li>
+  	 				<li><a href="#">dress</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h3>Follow us at</h3>
+  	 			<ul>
+  	 				<li><a href="#">facebook</a></li>
+  	 				<li><a href="#">instagram</a></li>
+  	 				<li><a href="#">youtube</a></li>
+  	 				<li><a href="#">linkedIn</a></li>
+  	 			</ul>
+  	 		</div>
+  	 	</div>
+  	 </div>
+ 
+            </footer>
+   
+    </body>
+</html>
